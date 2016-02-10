@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="713e5924e9f440fb86f109320e3b18c8" Name="Diagram1">
+        <EntityTypeShape EntityType="DBPolyCrawlerModel.KeyWord" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPolyCrawlerModel.Project" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPolyCrawlerModel.Qualifier" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPolyCrawlerModel.Result" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBPolyCrawlerModel.WebSite" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <AssociationConnector Association="DBPolyCrawlerModel.FK__KeyWords__projec__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPolyCrawlerModel.FK__Results__keyWord__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPolyCrawlerModel.FK__Qualifier__proje__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPolyCrawlerModel.FK__Results__project__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="DBPolyCrawlerModel.FK__Results__website__5EBF139D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

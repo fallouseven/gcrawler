@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Projet", "Index", "Projet")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <aside class="active">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
+                                    Projet <span class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="height: 0px;">
+                            <div class="panel-body">
+                                <div class="list-group">
+
+                                    <a href="@Url.Action("Index", "Home", "Home")" class="list-group-item"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Liste des projets</a>
+                                    <a href="#" class="list-group-item"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span>Ajout</a>
+                                    <a href="#" class="list-group-item"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span>Modification</a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Statistique <span class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
+                            <div class="panel-body">
+                                <div class="list-group">
+
+                                    <a href="#" class="list-group-item"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Menu Item</a>
+                                    <a href="#" class="list-group-item"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Menu Item</a>
+                                    <a href="#" class="list-group-item"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Menu Item</a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+</aside>
+            <!--sidebar end-->
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9">
+            @RenderBody()
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

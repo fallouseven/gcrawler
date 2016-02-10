@@ -1,0 +1,34 @@
+﻿@model IEnumerable<gCrawler.Models.KeyWord>
+<div class="container body-content">
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Project1.IdProject)
+            </th>
+            <th>Mot cle</th>
+            <th>Options</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Project1.IdProject)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idKeyWord)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.idKeyWord }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.idKeyWord }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.idKeyWord })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</div>

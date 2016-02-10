@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBPolyCrawlerModelStoreContainer" CdmEntityContainer="DBPolyCrawlerEntities">
+    <EntitySetMapping Name="KeyWords">
+      <EntityTypeMapping TypeName="DBPolyCrawlerModel.KeyWords">
+        <MappingFragment StoreEntitySet="KeyWords">
+          <ScalarProperty Name="idKeyWord" ColumnName="idKeyWord" />
+          <ScalarProperty Name="project" ColumnName="project" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Projects">
+      <EntityTypeMapping TypeName="DBPolyCrawlerModel.Projects">
+        <MappingFragment StoreEntitySet="Projects">
+          <ScalarProperty Name="IdProject" ColumnName="IdProject" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Qualifiers">
+      <EntityTypeMapping TypeName="DBPolyCrawlerModel.Qualifiers">
+        <MappingFragment StoreEntitySet="Qualifiers">
+          <ScalarProperty Name="IdQualifier" ColumnName="IdQualifier" />
+          <ScalarProperty Name="qualifier" ColumnName="qualifier" />
+          <ScalarProperty Name="project" ColumnName="project" />
+          <ScalarProperty Name="positive" ColumnName="positive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Results">
+      <EntityTypeMapping TypeName="DBPolyCrawlerModel.Results">
+        <MappingFragment StoreEntitySet="Results">
+          <ScalarProperty Name="IdResult" ColumnName="IdResult" />
+          <ScalarProperty Name="keyWord" ColumnName="keyWord" />
+          <ScalarProperty Name="website" ColumnName="website" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="text" ColumnName="text" />
+          <ScalarProperty Name="timeStamp" ColumnName="timeStamp" />
+          <ScalarProperty Name="project" ColumnName="project" />
+          <ScalarProperty Name="likeMention" ColumnName="likeMention" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="alias" ColumnName="alias" />
+          <ScalarProperty Name="posQualifier" ColumnName="posQualifier" />
+          <ScalarProperty Name="negQualifier" ColumnName="negQualifier" />
+          <ScalarProperty Name="shareMention" ColumnName="shareMention" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WebSites">
+      <EntityTypeMapping TypeName="DBPolyCrawlerModel.WebSites">
+        <MappingFragment StoreEntitySet="WebSites">
+          <ScalarProperty Name="IdWebSite" ColumnName="IdWebSite" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

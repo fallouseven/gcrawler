@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+@using (Html.BeginForm())
+{
+
+    <div class="form-horizontal">
+        <h4>Create Project</h4>
+        <hr />
+        <div class="col-lg-12 col-md-12 col-sm-12" id="createProject">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                <div class="col-md-10">
+                    Nom du projet :
+                </div>
+                <div class="col-md-10">
+                    @Html.TextBox("nameProject")
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    Mot clef :
+                </div>
+                <div class="col-md-10">
+                    @Html.TextBox("keyWords")
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-10">
+                    Mot clef :
+                </div>
+                <div class="col-md-10">
+                    @Html.TextBox("keyWords")
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input id="addKeys" type="button" value="Ajouter un nouveau mot clef" class="btn btn-default" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+    $("#addKeys").click(function (e) {
+       
+    $.ajax({
+        type: "GET",
+        url: "@Url.Action("AddRowsKeyWord", "Projet", "Projet")",
+        dataType: "html",
+        success: function (response) {
+            alert("Ok");
+            $("#createProject").append(response);
+        },
+        error: function (response) {
+            alert("Ok non");
+        }
+    });
+    });
+</script>

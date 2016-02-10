@@ -1,0 +1,15 @@
+﻿@model IEnumerable<gCrawler.Models.KeyWord>
+
+<h1>
+  Projet :  @ViewBag.projet
+</h1>
+
+<p>
+    Mots clefs : @Html.DisplayFor(modelItem => Model.First().idKeyWord)
+
+    @foreach (var item in Model.Skip(1))
+    {
+        <span>, </span>@Html.DisplayFor(modelItem => item.idKeyWord)
+    }
+</p>  
+

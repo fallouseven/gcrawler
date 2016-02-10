@@ -1,0 +1,95 @@
+﻿@model IEnumerable<gCrawler.Models.Result>
+<div class="container body-content">
+    <div class="col-lg-3 col-md-3 col-sm-3">
+        <ul>
+            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        </ul>
+    </div>
+    <div class="col-lg-9 col-md-9 col-sm-9">
+
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.URL)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.text)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.timeStamp)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.likeMention)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.location)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.alias)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.posQualifier)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.negQualifier)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.shareMention)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.KeyWord1.project)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Project1.IdProject)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.WebSite1.URL)
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.URL)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.text)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.timeStamp)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.likeMention)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.location)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.alias)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.posQualifier)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.negQualifier)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.shareMention)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.KeyWord1.project)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Project1.IdProject)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.WebSite1.URL)
+                    </td>
+
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>

@@ -1,0 +1,522 @@
+G:\projet VS\gCrawler\gCrawler\bin\ApplicationInsights.config
+G:\projet VS\gCrawler\gCrawler\bin\roslyn\csc.exe
+G:\projet VS\gCrawler\gCrawler\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\projet VS\gCrawler\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\projet VS\gCrawler\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\projet VS\gCrawler\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\projet VS\gCrawler\gCrawler\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\projet VS\gCrawler\gCrawler\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\projet VS\gCrawler\gCrawler\bin\roslyn\System.Collections.Immutable.dll
+G:\projet VS\gCrawler\gCrawler\bin\roslyn\System.Reflection.Metadata.dll
+G:\projet VS\gCrawler\gCrawler\bin\roslyn\vbc.exe
+G:\projet VS\gCrawler\gCrawler\bin\roslyn\VBCSCompiler.exe
+G:\projet VS\gCrawler\gCrawler\bin\roslyn\VBCSCompiler.exe.config
+G:\projet VS\gCrawler\gCrawler\bin\gCrawler.dll.config
+G:\projet VS\gCrawler\gCrawler\bin\gCrawler.dll
+G:\projet VS\gCrawler\gCrawler\bin\gCrawler.pdb
+G:\projet VS\gCrawler\gCrawler\bin\Antlr3.Runtime.dll
+G:\projet VS\gCrawler\gCrawler\bin\EntityFramework.dll
+G:\projet VS\gCrawler\gCrawler\bin\EntityFramework.SqlServer.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AI.Agent.Intercept.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AI.DependencyCollector.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AI.Web.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AI.WindowsServer.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.ApplicationInsights.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.Core.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Cookies.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Security.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Facebook.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Google.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Security.OAuth.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Twitter.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Web.Infrastructure.dll
+G:\projet VS\gCrawler\gCrawler\bin\Newtonsoft.Json.dll
+G:\projet VS\gCrawler\gCrawler\bin\Owin.dll
+G:\projet VS\gCrawler\gCrawler\bin\System.Web.Helpers.dll
+G:\projet VS\gCrawler\gCrawler\bin\System.Web.Mvc.dll
+G:\projet VS\gCrawler\gCrawler\bin\System.Web.Optimization.dll
+G:\projet VS\gCrawler\gCrawler\bin\System.Web.Razor.dll
+G:\projet VS\gCrawler\gCrawler\bin\System.Web.WebPages.Deployment.dll
+G:\projet VS\gCrawler\gCrawler\bin\System.Web.WebPages.dll
+G:\projet VS\gCrawler\gCrawler\bin\System.Web.WebPages.Razor.dll
+G:\projet VS\gCrawler\gCrawler\bin\WebGrease.dll
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AI.DependencyCollector.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AI.Web.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AI.WindowsServer.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.ApplicationInsights.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\projet VS\gCrawler\gCrawler\bin\System.Web.Helpers.xml
+G:\projet VS\gCrawler\gCrawler\bin\System.Web.Mvc.xml
+G:\projet VS\gCrawler\gCrawler\bin\System.Web.Optimization.xml
+G:\projet VS\gCrawler\gCrawler\bin\System.Web.Razor.xml
+G:\projet VS\gCrawler\gCrawler\bin\System.Web.WebPages.xml
+G:\projet VS\gCrawler\gCrawler\bin\System.Web.WebPages.Deployment.xml
+G:\projet VS\gCrawler\gCrawler\bin\System.Web.WebPages.Razor.xml
+G:\projet VS\gCrawler\gCrawler\bin\Antlr3.Runtime.pdb
+G:\projet VS\gCrawler\gCrawler\bin\Newtonsoft.Json.xml
+G:\projet VS\gCrawler\gCrawler\bin\EntityFramework.xml
+G:\projet VS\gCrawler\gCrawler\bin\EntityFramework.SqlServer.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.Core.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Security.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Facebook.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Cookies.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Security.OAuth.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Google.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Twitter.xml
+G:\projet VS\gCrawler\gCrawler\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\projet VS\gCrawler\gCrawler\obj\Debug\gCrawler.csprojResolveAssemblyReference.cache
+G:\projet VS\gCrawler\gCrawler\obj\Debug\gCrawler.dll
+G:\projet VS\gCrawler\gCrawler\obj\Debug\gCrawler.pdb
+F:\gCrawler\gCrawler\bin\ApplicationInsights.config
+F:\gCrawler\gCrawler\bin\roslyn\csc.exe
+F:\gCrawler\gCrawler\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\gCrawler\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\gCrawler\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\gCrawler\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\gCrawler\gCrawler\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\gCrawler\gCrawler\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\gCrawler\gCrawler\bin\roslyn\System.Collections.Immutable.dll
+F:\gCrawler\gCrawler\bin\roslyn\System.Reflection.Metadata.dll
+F:\gCrawler\gCrawler\bin\roslyn\vbc.exe
+F:\gCrawler\gCrawler\bin\roslyn\VBCSCompiler.exe
+F:\gCrawler\gCrawler\bin\roslyn\VBCSCompiler.exe.config
+F:\gCrawler\gCrawler\bin\gCrawler.dll.config
+F:\gCrawler\gCrawler\bin\gCrawler.dll
+F:\gCrawler\gCrawler\bin\gCrawler.pdb
+F:\gCrawler\gCrawler\bin\Antlr3.Runtime.dll
+F:\gCrawler\gCrawler\bin\EntityFramework.dll
+F:\gCrawler\gCrawler\bin\EntityFramework.SqlServer.dll
+F:\gCrawler\gCrawler\bin\Microsoft.AI.Agent.Intercept.dll
+F:\gCrawler\gCrawler\bin\Microsoft.AI.DependencyCollector.dll
+F:\gCrawler\gCrawler\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\gCrawler\gCrawler\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\gCrawler\gCrawler\bin\Microsoft.AI.Web.dll
+F:\gCrawler\gCrawler\bin\Microsoft.AI.WindowsServer.dll
+F:\gCrawler\gCrawler\bin\Microsoft.ApplicationInsights.dll
+F:\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.Core.dll
+F:\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\gCrawler\gCrawler\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.dll
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Cookies.dll
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.dll
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Facebook.dll
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Google.dll
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.OAuth.dll
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Twitter.dll
+F:\gCrawler\gCrawler\bin\Microsoft.Web.Infrastructure.dll
+F:\gCrawler\gCrawler\bin\Newtonsoft.Json.dll
+F:\gCrawler\gCrawler\bin\Owin.dll
+F:\gCrawler\gCrawler\bin\System.Web.Helpers.dll
+F:\gCrawler\gCrawler\bin\System.Web.Mvc.dll
+F:\gCrawler\gCrawler\bin\System.Web.Optimization.dll
+F:\gCrawler\gCrawler\bin\System.Web.Razor.dll
+F:\gCrawler\gCrawler\bin\System.Web.WebPages.Deployment.dll
+F:\gCrawler\gCrawler\bin\System.Web.WebPages.dll
+F:\gCrawler\gCrawler\bin\System.Web.WebPages.Razor.dll
+F:\gCrawler\gCrawler\bin\WebGrease.dll
+F:\gCrawler\gCrawler\bin\Microsoft.AI.DependencyCollector.xml
+F:\gCrawler\gCrawler\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\gCrawler\gCrawler\bin\Microsoft.AI.Web.xml
+F:\gCrawler\gCrawler\bin\Microsoft.AI.WindowsServer.xml
+F:\gCrawler\gCrawler\bin\Microsoft.ApplicationInsights.xml
+F:\gCrawler\gCrawler\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\gCrawler\gCrawler\bin\System.Web.Helpers.xml
+F:\gCrawler\gCrawler\bin\System.Web.Mvc.xml
+F:\gCrawler\gCrawler\bin\System.Web.Optimization.xml
+F:\gCrawler\gCrawler\bin\System.Web.Razor.xml
+F:\gCrawler\gCrawler\bin\System.Web.WebPages.xml
+F:\gCrawler\gCrawler\bin\System.Web.WebPages.Deployment.xml
+F:\gCrawler\gCrawler\bin\System.Web.WebPages.Razor.xml
+F:\gCrawler\gCrawler\bin\Antlr3.Runtime.pdb
+F:\gCrawler\gCrawler\bin\Newtonsoft.Json.xml
+F:\gCrawler\gCrawler\bin\EntityFramework.xml
+F:\gCrawler\gCrawler\bin\EntityFramework.SqlServer.xml
+F:\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.Core.xml
+F:\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.xml
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.xml
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Facebook.xml
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Cookies.xml
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.OAuth.xml
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Google.xml
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Twitter.xml
+F:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\gCrawler\gCrawler\obj\Debug\gCrawler.csprojResolveAssemblyReference.cache
+F:\gCrawler\gCrawler\obj\Debug\gCrawler.dll
+F:\gCrawler\gCrawler\obj\Debug\gCrawler.pdb
+H:\gCrawler\gCrawler\bin\ApplicationInsights.config
+H:\gCrawler\gCrawler\bin\roslyn\csc.exe
+H:\gCrawler\gCrawler\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\gCrawler\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\gCrawler\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\gCrawler\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\gCrawler\gCrawler\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\gCrawler\gCrawler\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\gCrawler\gCrawler\bin\roslyn\System.Collections.Immutable.dll
+H:\gCrawler\gCrawler\bin\roslyn\System.Reflection.Metadata.dll
+H:\gCrawler\gCrawler\bin\roslyn\vbc.exe
+H:\gCrawler\gCrawler\bin\roslyn\VBCSCompiler.exe
+H:\gCrawler\gCrawler\bin\roslyn\VBCSCompiler.exe.config
+H:\gCrawler\gCrawler\bin\gCrawler.dll.config
+H:\gCrawler\gCrawler\bin\gCrawler.dll
+H:\gCrawler\gCrawler\bin\gCrawler.pdb
+H:\gCrawler\gCrawler\bin\Antlr3.Runtime.dll
+H:\gCrawler\gCrawler\bin\EntityFramework.dll
+H:\gCrawler\gCrawler\bin\EntityFramework.SqlServer.dll
+H:\gCrawler\gCrawler\bin\Microsoft.AI.Agent.Intercept.dll
+H:\gCrawler\gCrawler\bin\Microsoft.AI.DependencyCollector.dll
+H:\gCrawler\gCrawler\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\gCrawler\gCrawler\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\gCrawler\gCrawler\bin\Microsoft.AI.Web.dll
+H:\gCrawler\gCrawler\bin\Microsoft.AI.WindowsServer.dll
+H:\gCrawler\gCrawler\bin\Microsoft.ApplicationInsights.dll
+H:\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.Core.dll
+H:\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\gCrawler\gCrawler\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.dll
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Cookies.dll
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.dll
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Facebook.dll
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Google.dll
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.OAuth.dll
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Twitter.dll
+H:\gCrawler\gCrawler\bin\Microsoft.Web.Infrastructure.dll
+H:\gCrawler\gCrawler\bin\Newtonsoft.Json.dll
+H:\gCrawler\gCrawler\bin\Owin.dll
+H:\gCrawler\gCrawler\bin\System.Net.Http.Formatting.dll
+H:\gCrawler\gCrawler\bin\System.Web.Helpers.dll
+H:\gCrawler\gCrawler\bin\System.Web.Http.dll
+H:\gCrawler\gCrawler\bin\System.Web.Http.WebHost.dll
+H:\gCrawler\gCrawler\bin\System.Web.Mvc.dll
+H:\gCrawler\gCrawler\bin\System.Web.Optimization.dll
+H:\gCrawler\gCrawler\bin\System.Web.Razor.dll
+H:\gCrawler\gCrawler\bin\System.Web.WebPages.Deployment.dll
+H:\gCrawler\gCrawler\bin\System.Web.WebPages.dll
+H:\gCrawler\gCrawler\bin\System.Web.WebPages.Razor.dll
+H:\gCrawler\gCrawler\bin\WebGrease.dll
+H:\gCrawler\gCrawler\bin\Microsoft.AI.DependencyCollector.xml
+H:\gCrawler\gCrawler\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\gCrawler\gCrawler\bin\Microsoft.AI.Web.xml
+H:\gCrawler\gCrawler\bin\Microsoft.AI.WindowsServer.xml
+H:\gCrawler\gCrawler\bin\Microsoft.ApplicationInsights.xml
+H:\gCrawler\gCrawler\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\gCrawler\gCrawler\bin\System.Net.Http.Formatting.xml
+H:\gCrawler\gCrawler\bin\System.Web.Http.xml
+H:\gCrawler\gCrawler\bin\System.Web.Http.WebHost.xml
+H:\gCrawler\gCrawler\bin\System.Web.Helpers.xml
+H:\gCrawler\gCrawler\bin\System.Web.Mvc.xml
+H:\gCrawler\gCrawler\bin\System.Web.Optimization.xml
+H:\gCrawler\gCrawler\bin\System.Web.Razor.xml
+H:\gCrawler\gCrawler\bin\System.Web.WebPages.xml
+H:\gCrawler\gCrawler\bin\System.Web.WebPages.Deployment.xml
+H:\gCrawler\gCrawler\bin\System.Web.WebPages.Razor.xml
+H:\gCrawler\gCrawler\bin\Antlr3.Runtime.pdb
+H:\gCrawler\gCrawler\bin\Newtonsoft.Json.xml
+H:\gCrawler\gCrawler\bin\EntityFramework.xml
+H:\gCrawler\gCrawler\bin\EntityFramework.SqlServer.xml
+H:\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.Core.xml
+H:\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\gCrawler\gCrawler\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.xml
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.xml
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Facebook.xml
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Cookies.xml
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.OAuth.xml
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Google.xml
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.Twitter.xml
+H:\gCrawler\gCrawler\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\gCrawler\gCrawler\obj\Debug\gCrawler.csprojResolveAssemblyReference.cache
+H:\gCrawler\gCrawler\obj\Debug\gCrawler.dll
+H:\gCrawler\gCrawler\obj\Debug\gCrawler.pdb
+F:\gCrawler\gCrawler\bin\System.Net.Http.Formatting.dll
+F:\gCrawler\gCrawler\bin\System.Web.Http.dll
+F:\gCrawler\gCrawler\bin\System.Web.Http.WebHost.dll
+F:\gCrawler\gCrawler\bin\System.Net.Http.Formatting.xml
+F:\gCrawler\gCrawler\bin\System.Web.Http.xml
+F:\gCrawler\gCrawler\bin\System.Web.Http.WebHost.xml
+F:\autre gcrawl\gCrawler\bin\ApplicationInsights.config
+F:\autre gcrawl\gCrawler\bin\roslyn\csc.exe
+F:\autre gcrawl\gCrawler\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\autre gcrawl\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\autre gcrawl\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\autre gcrawl\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\autre gcrawl\gCrawler\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\autre gcrawl\gCrawler\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\autre gcrawl\gCrawler\bin\roslyn\System.Collections.Immutable.dll
+F:\autre gcrawl\gCrawler\bin\roslyn\System.Reflection.Metadata.dll
+F:\autre gcrawl\gCrawler\bin\roslyn\vbc.exe
+F:\autre gcrawl\gCrawler\bin\roslyn\VBCSCompiler.exe
+F:\autre gcrawl\gCrawler\bin\roslyn\VBCSCompiler.exe.config
+F:\autre gcrawl\gCrawler\bin\gCrawler.dll.config
+F:\autre gcrawl\gCrawler\bin\gCrawler.dll
+F:\autre gcrawl\gCrawler\bin\gCrawler.pdb
+F:\autre gcrawl\gCrawler\bin\Antlr3.Runtime.dll
+F:\autre gcrawl\gCrawler\bin\EntityFramework.dll
+F:\autre gcrawl\gCrawler\bin\EntityFramework.SqlServer.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.AI.Agent.Intercept.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.AI.DependencyCollector.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.AI.Web.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.AI.WindowsServer.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.ApplicationInsights.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.Core.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Cookies.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Facebook.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Google.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.OAuth.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Twitter.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.Web.Infrastructure.dll
+F:\autre gcrawl\gCrawler\bin\Newtonsoft.Json.dll
+F:\autre gcrawl\gCrawler\bin\Owin.dll
+F:\autre gcrawl\gCrawler\bin\System.Net.Http.Formatting.dll
+F:\autre gcrawl\gCrawler\bin\System.Web.Helpers.dll
+F:\autre gcrawl\gCrawler\bin\System.Web.Http.dll
+F:\autre gcrawl\gCrawler\bin\System.Web.Http.WebHost.dll
+F:\autre gcrawl\gCrawler\bin\System.Web.Mvc.dll
+F:\autre gcrawl\gCrawler\bin\System.Web.Optimization.dll
+F:\autre gcrawl\gCrawler\bin\System.Web.Razor.dll
+F:\autre gcrawl\gCrawler\bin\System.Web.WebPages.Deployment.dll
+F:\autre gcrawl\gCrawler\bin\System.Web.WebPages.dll
+F:\autre gcrawl\gCrawler\bin\System.Web.WebPages.Razor.dll
+F:\autre gcrawl\gCrawler\bin\WebGrease.dll
+F:\autre gcrawl\gCrawler\bin\Microsoft.AI.DependencyCollector.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.AI.Web.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.AI.WindowsServer.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.ApplicationInsights.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\autre gcrawl\gCrawler\bin\System.Net.Http.Formatting.xml
+F:\autre gcrawl\gCrawler\bin\System.Web.Http.xml
+F:\autre gcrawl\gCrawler\bin\System.Web.Http.WebHost.xml
+F:\autre gcrawl\gCrawler\bin\System.Web.Helpers.xml
+F:\autre gcrawl\gCrawler\bin\System.Web.Mvc.xml
+F:\autre gcrawl\gCrawler\bin\System.Web.Optimization.xml
+F:\autre gcrawl\gCrawler\bin\System.Web.Razor.xml
+F:\autre gcrawl\gCrawler\bin\System.Web.WebPages.xml
+F:\autre gcrawl\gCrawler\bin\System.Web.WebPages.Deployment.xml
+F:\autre gcrawl\gCrawler\bin\System.Web.WebPages.Razor.xml
+F:\autre gcrawl\gCrawler\bin\Antlr3.Runtime.pdb
+F:\autre gcrawl\gCrawler\bin\Newtonsoft.Json.xml
+F:\autre gcrawl\gCrawler\bin\EntityFramework.xml
+F:\autre gcrawl\gCrawler\bin\EntityFramework.SqlServer.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.Core.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Facebook.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Cookies.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.OAuth.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Google.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Twitter.xml
+F:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\autre gcrawl\gCrawler\obj\Debug\gCrawler.csprojResolveAssemblyReference.cache
+F:\autre gcrawl\gCrawler\obj\Debug\gCrawler.dll
+F:\autre gcrawl\gCrawler\obj\Debug\gCrawler.pdb
+H:\autre gcrawl\gCrawler\bin\ApplicationInsights.config
+H:\autre gcrawl\gCrawler\bin\roslyn\csc.exe
+H:\autre gcrawl\gCrawler\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\autre gcrawl\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\autre gcrawl\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\autre gcrawl\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\autre gcrawl\gCrawler\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\autre gcrawl\gCrawler\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\autre gcrawl\gCrawler\bin\roslyn\System.Collections.Immutable.dll
+H:\autre gcrawl\gCrawler\bin\roslyn\System.Reflection.Metadata.dll
+H:\autre gcrawl\gCrawler\bin\roslyn\vbc.exe
+H:\autre gcrawl\gCrawler\bin\roslyn\VBCSCompiler.exe
+H:\autre gcrawl\gCrawler\bin\roslyn\VBCSCompiler.exe.config
+H:\autre gcrawl\gCrawler\bin\gCrawler.dll.config
+H:\autre gcrawl\gCrawler\bin\gCrawler.dll
+H:\autre gcrawl\gCrawler\bin\gCrawler.pdb
+H:\autre gcrawl\gCrawler\bin\Antlr3.Runtime.dll
+H:\autre gcrawl\gCrawler\bin\EntityFramework.dll
+H:\autre gcrawl\gCrawler\bin\EntityFramework.SqlServer.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.AI.Agent.Intercept.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.AI.DependencyCollector.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.AI.Web.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.AI.WindowsServer.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.ApplicationInsights.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.Core.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Cookies.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Facebook.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Google.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.OAuth.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Twitter.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.Web.Infrastructure.dll
+H:\autre gcrawl\gCrawler\bin\Newtonsoft.Json.dll
+H:\autre gcrawl\gCrawler\bin\Owin.dll
+H:\autre gcrawl\gCrawler\bin\System.Net.Http.Formatting.dll
+H:\autre gcrawl\gCrawler\bin\System.Web.Helpers.dll
+H:\autre gcrawl\gCrawler\bin\System.Web.Http.dll
+H:\autre gcrawl\gCrawler\bin\System.Web.Http.WebHost.dll
+H:\autre gcrawl\gCrawler\bin\System.Web.Mvc.dll
+H:\autre gcrawl\gCrawler\bin\System.Web.Optimization.dll
+H:\autre gcrawl\gCrawler\bin\System.Web.Razor.dll
+H:\autre gcrawl\gCrawler\bin\System.Web.WebPages.Deployment.dll
+H:\autre gcrawl\gCrawler\bin\System.Web.WebPages.dll
+H:\autre gcrawl\gCrawler\bin\System.Web.WebPages.Razor.dll
+H:\autre gcrawl\gCrawler\bin\WebGrease.dll
+H:\autre gcrawl\gCrawler\bin\Microsoft.AI.DependencyCollector.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.AI.Web.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.AI.WindowsServer.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.ApplicationInsights.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\autre gcrawl\gCrawler\bin\System.Net.Http.Formatting.xml
+H:\autre gcrawl\gCrawler\bin\System.Web.Http.xml
+H:\autre gcrawl\gCrawler\bin\System.Web.Http.WebHost.xml
+H:\autre gcrawl\gCrawler\bin\System.Web.Helpers.xml
+H:\autre gcrawl\gCrawler\bin\System.Web.Mvc.xml
+H:\autre gcrawl\gCrawler\bin\System.Web.Optimization.xml
+H:\autre gcrawl\gCrawler\bin\System.Web.Razor.xml
+H:\autre gcrawl\gCrawler\bin\System.Web.WebPages.xml
+H:\autre gcrawl\gCrawler\bin\System.Web.WebPages.Deployment.xml
+H:\autre gcrawl\gCrawler\bin\System.Web.WebPages.Razor.xml
+H:\autre gcrawl\gCrawler\bin\Antlr3.Runtime.pdb
+H:\autre gcrawl\gCrawler\bin\Newtonsoft.Json.xml
+H:\autre gcrawl\gCrawler\bin\EntityFramework.xml
+H:\autre gcrawl\gCrawler\bin\EntityFramework.SqlServer.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.Core.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Facebook.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Cookies.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.OAuth.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Google.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Twitter.xml
+H:\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\autre gcrawl\gCrawler\obj\Debug\gCrawler.csprojResolveAssemblyReference.cache
+H:\autre gcrawl\gCrawler\obj\Debug\gCrawler.dll
+H:\autre gcrawl\gCrawler\obj\Debug\gCrawler.pdb
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\ApplicationInsights.config
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\roslyn\csc.exe
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\roslyn\vbc.exe
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\roslyn\VBCSCompiler.exe
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\gCrawler.dll.config
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\gCrawler.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\gCrawler.pdb
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Antlr3.Runtime.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\EntityFramework.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\EntityFramework.SqlServer.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AI.Web.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Newtonsoft.Json.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Owin.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Net.Http.Formatting.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.Helpers.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.Http.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.Http.WebHost.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.Mvc.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.Optimization.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.Razor.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.WebPages.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.WebPages.Razor.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\WebGrease.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AI.Web.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Net.Http.Formatting.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.Http.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.Http.WebHost.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.Helpers.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.Mvc.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.Optimization.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.Razor.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.WebPages.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\System.Web.WebPages.Razor.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Antlr3.Runtime.pdb
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Newtonsoft.Json.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\EntityFramework.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\EntityFramework.SqlServer.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\obj\Debug\gCrawler.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\obj\Debug\gCrawler.dll
+C:\Users\Daniel\Documents\Polytechnique\LOG4900 - Projet 4\autre gcrawl\gCrawler\obj\Debug\gCrawler.pdb

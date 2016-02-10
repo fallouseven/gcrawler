@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DBPolyCrawlerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="KeyWords">
+          <Key>
+            <PropertyRef Name="idKeyWord" />
+          </Key>
+          <Property Name="idKeyWord" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="project" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Projects">
+          <Key>
+            <PropertyRef Name="IdProject" />
+          </Key>
+          <Property Name="IdProject" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Qualifiers">
+          <Key>
+            <PropertyRef Name="IdQualifier" />
+          </Key>
+          <Property Name="IdQualifier" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="qualifier" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="project" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="positive" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Results">
+          <Key>
+            <PropertyRef Name="IdResult" />
+          </Key>
+          <Property Name="IdResult" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="keyWord" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="website" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="URL" Type="text" Nullable="false" />
+          <Property Name="text" Type="text" Nullable="false" />
+          <Property Name="timeStamp" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="project" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="likeMention" Type="int" Nullable="false" />
+          <Property Name="location" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="alias" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="posQualifier" Type="int" Nullable="false" />
+          <Property Name="negQualifier" Type="int" Nullable="false" />
+          <Property Name="shareMention" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="WebSites">
+          <Key>
+            <PropertyRef Name="IdWebSite" />
+          </Key>
+          <Property Name="IdWebSite" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="URL" Type="text" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__KeyWords__projec__4D94879B">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="0..1" />
+          <End Role="KeyWords" Type="Self.KeyWords" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="IdProject" />
+            </Principal>
+            <Dependent Role="KeyWords">
+              <PropertyRef Name="project" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Qualifier__proje__4E88ABD4">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Qualifiers" Type="Self.Qualifiers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="IdProject" />
+            </Principal>
+            <Dependent Role="Qualifiers">
+              <PropertyRef Name="project" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Results__keyWord__5DCAEF64">
+          <End Role="KeyWords" Type="Self.KeyWords" Multiplicity="1" />
+          <End Role="Results" Type="Self.Results" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="KeyWords">
+              <PropertyRef Name="idKeyWord" />
+            </Principal>
+            <Dependent Role="Results">
+              <PropertyRef Name="keyWord" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Results__project__5CD6CB2B">
+          <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+          <End Role="Results" Type="Self.Results" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="IdProject" />
+            </Principal>
+            <Dependent Role="Results">
+              <PropertyRef Name="project" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Results__website__5EBF139D">
+          <End Role="WebSites" Type="Self.WebSites" Multiplicity="1" />
+          <End Role="Results" Type="Self.Results" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WebSites">
+              <PropertyRef Name="IdWebSite" />
+            </Principal>
+            <Dependent Role="Results">
+              <PropertyRef Name="website" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DBPolyCrawlerModelStoreContainer">
+          <EntitySet Name="KeyWords" EntityType="Self.KeyWords" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Projects" EntityType="Self.Projects" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Qualifiers" EntityType="Self.Qualifiers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Results" EntityType="Self.Results" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="WebSites" EntityType="Self.WebSites" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__KeyWords__projec__4D94879B" Association="Self.FK__KeyWords__projec__4D94879B">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="KeyWords" EntitySet="KeyWords" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Qualifier__proje__4E88ABD4" Association="Self.FK__Qualifier__proje__4E88ABD4">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Qualifiers" EntitySet="Qualifiers" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Results__keyWord__5DCAEF64" Association="Self.FK__Results__keyWord__5DCAEF64">
+            <End Role="KeyWords" EntitySet="KeyWords" />
+            <End Role="Results" EntitySet="Results" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Results__project__5CD6CB2B" Association="Self.FK__Results__project__5CD6CB2B">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Results" EntitySet="Results" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Results__website__5EBF139D" Association="Self.FK__Results__website__5EBF139D">
+            <End Role="WebSites" EntitySet="WebSites" />
+            <End Role="Results" EntitySet="Results" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DBPolyCrawlerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="KeyWord">
+          <Key>
+            <PropertyRef Name="idKeyWord" />
+          </Key>
+          <Property Name="idKeyWord" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="project" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Project1" Relationship="Self.FK__KeyWords__projec__4D94879B" FromRole="KeyWords" ToRole="Projects" />
+          <NavigationProperty Name="Results" Relationship="Self.FK__Results__keyWord__5DCAEF64" FromRole="KeyWords" ToRole="Results" />
+        </EntityType>
+        <EntityType Name="Project">
+          <Key>
+            <PropertyRef Name="IdProject" />
+          </Key>
+          <Property Name="IdProject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="KeyWords" Relationship="Self.FK__KeyWords__projec__4D94879B" FromRole="Projects" ToRole="KeyWords" />
+          <NavigationProperty Name="Qualifiers" Relationship="Self.FK__Qualifier__proje__4E88ABD4" FromRole="Projects" ToRole="Qualifiers" />
+          <NavigationProperty Name="Results" Relationship="Self.FK__Results__project__5CD6CB2B" FromRole="Projects" ToRole="Results" />
+        </EntityType>
+        <EntityType Name="Qualifier">
+          <Key>
+            <PropertyRef Name="IdQualifier" />
+          </Key>
+          <Property Name="IdQualifier" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="qualifier1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="project" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="positive" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Project1" Relationship="Self.FK__Qualifier__proje__4E88ABD4" FromRole="Qualifiers" ToRole="Projects" />
+        </EntityType>
+        <EntityType Name="Result">
+          <Key>
+            <PropertyRef Name="IdResult" />
+          </Key>
+          <Property Name="IdResult" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="keyWord" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="website" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="text" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="timeStamp" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="project" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="likeMention" Type="Int32" Nullable="false" />
+          <Property Name="location" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="alias" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="posQualifier" Type="Int32" Nullable="false" />
+          <Property Name="negQualifier" Type="Int32" Nullable="false" />
+          <Property Name="shareMention" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="KeyWord1" Relationship="Self.FK__Results__keyWord__5DCAEF64" FromRole="Results" ToRole="KeyWords" />
+          <NavigationProperty Name="Project1" Relationship="Self.FK__Results__project__5CD6CB2B" FromRole="Results" ToRole="Projects" />
+          <NavigationProperty Name="WebSite1" Relationship="Self.FK__Results__website__5EBF139D" FromRole="Results" ToRole="WebSites" />
+        </EntityType>
+        <EntityType Name="WebSite">
+          <Key>
+            <PropertyRef Name="IdWebSite" />
+          </Key>
+          <Property Name="IdWebSite" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Results" Relationship="Self.FK__Results__website__5EBF139D" FromRole="WebSites" ToRole="Results" />
+        </EntityType>
+        <Association Name="FK__KeyWords__projec__4D94879B">
+          <End Role="Projects" Type="Self.Project" Multiplicity="0..1" />
+          <End Role="KeyWords" Type="Self.KeyWord" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="IdProject" />
+            </Principal>
+            <Dependent Role="KeyWords">
+              <PropertyRef Name="project" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Results__keyWord__5DCAEF64">
+          <End Role="KeyWords" Type="Self.KeyWord" Multiplicity="1" />
+          <End Role="Results" Type="Self.Result" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="KeyWords">
+              <PropertyRef Name="idKeyWord" />
+            </Principal>
+            <Dependent Role="Results">
+              <PropertyRef Name="keyWord" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Qualifier__proje__4E88ABD4">
+          <End Role="Projects" Type="Self.Project" Multiplicity="1" />
+          <End Role="Qualifiers" Type="Self.Qualifier" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="IdProject" />
+            </Principal>
+            <Dependent Role="Qualifiers">
+              <PropertyRef Name="project" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Results__project__5CD6CB2B">
+          <End Role="Projects" Type="Self.Project" Multiplicity="1" />
+          <End Role="Results" Type="Self.Result" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="IdProject" />
+            </Principal>
+            <Dependent Role="Results">
+              <PropertyRef Name="project" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Results__website__5EBF139D">
+          <End Role="WebSites" Type="Self.WebSite" Multiplicity="1" />
+          <End Role="Results" Type="Self.Result" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="WebSites">
+              <PropertyRef Name="IdWebSite" />
+            </Principal>
+            <Dependent Role="Results">
+              <PropertyRef Name="website" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DBPolyCrawlerEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="KeyWords" EntityType="Self.KeyWord" />
+          <EntitySet Name="Projects" EntityType="Self.Project" />
+          <EntitySet Name="Qualifiers" EntityType="Self.Qualifier" />
+          <EntitySet Name="Results" EntityType="Self.Result" />
+          <EntitySet Name="WebSites" EntityType="Self.WebSite" />
+          <AssociationSet Name="FK__KeyWords__projec__4D94879B" Association="Self.FK__KeyWords__projec__4D94879B">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="KeyWords" EntitySet="KeyWords" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Results__keyWord__5DCAEF64" Association="Self.FK__Results__keyWord__5DCAEF64">
+            <End Role="KeyWords" EntitySet="KeyWords" />
+            <End Role="Results" EntitySet="Results" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Qualifier__proje__4E88ABD4" Association="Self.FK__Qualifier__proje__4E88ABD4">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Qualifiers" EntitySet="Qualifiers" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Results__project__5CD6CB2B" Association="Self.FK__Results__project__5CD6CB2B">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Results" EntitySet="Results" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Results__website__5EBF139D" Association="Self.FK__Results__website__5EBF139D">
+            <End Role="WebSites" EntitySet="WebSites" />
+            <End Role="Results" EntitySet="Results" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DBPolyCrawlerModelStoreContainer" CdmEntityContainer="DBPolyCrawlerEntities1">
+          <EntitySetMapping Name="KeyWords">
+            <EntityTypeMapping TypeName="DBPolyCrawlerModel.KeyWord">
+              <MappingFragment StoreEntitySet="KeyWords">
+                <ScalarProperty Name="idKeyWord" ColumnName="idKeyWord" />
+                <ScalarProperty Name="project" ColumnName="project" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Projects">
+            <EntityTypeMapping TypeName="DBPolyCrawlerModel.Project">
+              <MappingFragment StoreEntitySet="Projects">
+                <ScalarProperty Name="IdProject" ColumnName="IdProject" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Qualifiers">
+            <EntityTypeMapping TypeName="DBPolyCrawlerModel.Qualifier">
+              <MappingFragment StoreEntitySet="Qualifiers">
+                <ScalarProperty Name="IdQualifier" ColumnName="IdQualifier" />
+                <ScalarProperty Name="qualifier1" ColumnName="qualifier" />
+                <ScalarProperty Name="project" ColumnName="project" />
+                <ScalarProperty Name="positive" ColumnName="positive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Results">
+            <EntityTypeMapping TypeName="DBPolyCrawlerModel.Result">
+              <MappingFragment StoreEntitySet="Results">
+                <ScalarProperty Name="IdResult" ColumnName="IdResult" />
+                <ScalarProperty Name="keyWord" ColumnName="keyWord" />
+                <ScalarProperty Name="website" ColumnName="website" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="text" ColumnName="text" />
+                <ScalarProperty Name="timeStamp" ColumnName="timeStamp" />
+                <ScalarProperty Name="project" ColumnName="project" />
+                <ScalarProperty Name="likeMention" ColumnName="likeMention" />
+                <ScalarProperty Name="location" ColumnName="location" />
+                <ScalarProperty Name="alias" ColumnName="alias" />
+                <ScalarProperty Name="posQualifier" ColumnName="posQualifier" />
+                <ScalarProperty Name="negQualifier" ColumnName="negQualifier" />
+                <ScalarProperty Name="shareMention" ColumnName="shareMention" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WebSites">
+            <EntityTypeMapping TypeName="DBPolyCrawlerModel.WebSite">
+              <MappingFragment StoreEntitySet="WebSites">
+                <ScalarProperty Name="IdWebSite" ColumnName="IdWebSite" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
